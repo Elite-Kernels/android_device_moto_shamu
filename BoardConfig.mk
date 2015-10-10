@@ -23,6 +23,7 @@ TARGET_CPU_VARIANT := krait
 TARGET_NO_BOOTLOADER := true
 
 WITH_DEXPREOPT := true
+DONT_DEXPREOPT_PREBUILTS := true
 
 # Inline kernel building
 TARGET_KERNEL_CONFIG := shamu_defconfig
