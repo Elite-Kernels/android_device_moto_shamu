@@ -29,8 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # Elite Init.d
 PRODUCT_COPY_FILES += \
-    device/moto/shamu/etc/init.d/92Elite:system/etc/init.d/92Elite \
-    device/moto/shamu/su.d/50supolicy.sh:system/su.d/50supolicy.sh
+    device/moto/shamu/etc/init.d/92Elite:system/etc/init.d/92Elite
     
 # Input device files for shamu
 PRODUCT_COPY_FILES += \
